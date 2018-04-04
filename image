@@ -1,0 +1,22 @@
+{
+    "protocol": "SplashScreenAction.index",
+    "result": true,
+    "message": {
+        "type": "img",
+        "id": "1",
+        "content": [
+            {
+                "url": "http://pic1.16pic.com/00/41/27/16pic_4127958_b.jpg",
+                "id": 1
+            },
+            {
+                "url": "http://pic1.16pic.com/00/41/27/16pic_4127958_b.jpg",
+                "id": 2
+            }
+        ],
+        "title": "知校平台",
+        "url": "http://www.baidu.com",
+        "starttime": "1522299826",
+        "endtime": "1523499826"
+    }
+}
