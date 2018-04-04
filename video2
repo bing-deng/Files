@@ -1,0 +1,17 @@
+{
+    "protocol": "SplashScreenAction.index",
+    "result": true,
+    "message": {
+        "type": "video",
+        "content": [
+            {
+                "url": "http://7xrgv0.com1.z0.glb.clouddn.com/cut_video.mp4",
+                "id": 1
+            }
+        ],
+        "title": "一个你身边的“魔法”学校",
+        "url": "http://www.5xiaoyuan.cn/open/index.php/WebView/Separate/oa_video",
+        "starttime": "1522299826",
+        "endtime": "1523999826"
+    }
+}
