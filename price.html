@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<!-- CN -->
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/footable.core.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/base/jquery.ui.all.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/ui.fancytree.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/jquery.orgchart.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/js/footable.js"></script>
+<script type="text/javascript" src="/js/footable.paginate.js"></script>
+<!--<script type="text/javascript" src="js/footable.sort.js"></script>-->
+<script type="text/javascript" src="/js/jquery.ui.core.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="/js/jquery.fancytree.js"></script>
+<script type="text/javascript" src="/js/jquery.orgchart.js"></script>
+<script type="text/javascript" src="/js/jquery.steps.min.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script>
+	function focusAndSelect(obj) {
+		obj.focus();
+		obj.select();
+	}
+</script>
+
+	
+
+
+
+
+    <title>MfcClub</title>
+</head>
+
+
+
+
+	
+
+
+<script type="text/javascript">
+
+
+	
+
+</script>
+
+
+</head>
+
+<body>
+
+<div class="main_container">
+
+<div class="header clearfix">
+    <div class="logo">
+      <h1><a href="/app/workplace/member.do?task=main"><img src="/img/logo-mfc.png"/></a></h1>
+    </div><!--end of logo-->
+    <div class="menu">
+        <ul>
+            <li><a class="toggle_menu"><img src="/img/ico_menu.png" /> Menu</a></li>
+            <li><a class="toggle_setting"><img src="/img/ico_setting.png" /> Setting</a></li>
+        </ul>            
+    </div><!--end of menu--><!--end of menu-->
+    <div class="right_header">
+       <ul>
+            <li><a href="http://www.macademy.asia/" target="_blank"><img width="50px" height="44px" src="/img/mlogo2.png"></a></li>
+	  		<li><a href="http://www.mmallv2u.com" target="_blank"><img height="44px" src="https://www.mmallv2u.com/images/logo.png"></a></li> 
+            <li><a href="/app/mcoin/sso.do?task=doSSO" target="_blank"><img src="https://o2oloyaltyreward.com/images/logo.png" width="44px" height="44px"></a></li>
+			<li><a href="/app/mgold/sso.do?task=doSSO" target="_blank"><img src="/img/mgold.png"></a></li>
+			<li><a href="/app/gp/sso.do?task=doSSO" target="_blank"><img src="/img/gp.png"  width="44px" height="44px"></a></li>
+            
+           <li><a href="#"><img src="/img/ico_user.png" /> dbbaa1</a>
+               <ul>
+                    <li><a href="/app/member/maintain.do?task=doInfo">View Profile</a></li>
+                    <li><a href="/app/member/maintain2.do?task=doChangePwd">Change Password</a></li>
+                    <li><a href="/auth.do?task=doLogout">Sign Out</a></li>
+                </ul>
+           </li>
+       </ul>     
+    </div><!--end of right header-->
+</div>
+
+<div class="center_content">
+
+    <div class="left_content">
+        <div class="sidebarmenu">
+            <ul>
+            <li><a>Gamer</a>
+                <ul>
+								<li><a href="/app/workplace/member.do?task=main">Home</a></li>
+								<li><a href="/app/2stepauth.do?task=doRegisterTwoStepAuth">Activate 2 Step Authentication</a></li>
+								<li><a href="/app/member/maintain.do?task=doInfo">View Profile </a></li>
+								<li><a href="/app/member/maintain2.do?task=doChangePwd">Change Password </a></li>
+								<li><a href="/app/member/maintain2.do?task=doChangePin">Change ePin </a></li>
+								<li><a href="/app/member/maintain2.do?task=doChangeDual">Change 2nd Login Password </a></li>
+								
+								
+									<li><a href="/app/member/tree/binary.do?task=doView&ViewType=1">My Placement Tree </a></li>
+								
+								<li><a href="/app/bonus/statement.do?task=doDailyListing">My eBonus </a></li>
+								<li><a href="/app/bonus/statement.do?task=doGPPListing">SP Bonus</a></li>
+								<li><a href="/app/workplace/member.do?task=exchangeRate">Exchange Rate </a></li>
+							</ul>
+			</li>
+            <li><a>My Credits</a>
+               <ul>
+								<li><a href="/app/wallet/ewallet2.do?task=doViewMbrTrx&Type=10">View M Credit </a></li>
+								<li><a href="/app/wallet/transfer2.do?task=doForm">Register/AP Transfer </a></li>
+
+								<li><a href="/app/wallet/sellwallet.do?task=doForm">M Credit Withdrawal </a></li>
+								<li><a href="/app/wallet/exchange.do?task=doForm">M Credit Exchange </a></li>
+								
+								<li><a href="/app/share/sellmp.do?task=doForm">GRC Exchange MP</a></li>
+
+								
+				</ul>
+            </li>
+            <li><a>Transactions</a>
+                <ul>
+								<li><a href="/app/member/register.do?task=doPre">Sign Up Trader </a></li>
+								<li><a href="/app/pos/order/mbr/placeOrder.do?task=doPre">Topup </a></li>
+								
+								<li><a href="/app/pos/order/member.do?task=doList">Purchase History </a></li>
+								<li><a href="/app/bonus/statement.do?task=doPairBreakdown">Pair Breakdown Report </a></li>
+								<li><a href="/app/workplace/member.do?task=exchangeRate">Exchange Rate </a></li>
+								
+								<li><a href="/app/share/manage.do?task=doHome">Manage GRC</a></li>
+								<li><a href="/app/share/buy.do?task=doHome">Buy From Market</a></li>
+								<li><a href="/app/share/sell.do?task=doForm">Sell to Market</a></li>
+								
+							</ul></li>
+            <li><a>Helpdesk</a>
+                <ul>
+                    <li><a href="/app/general/helpdesk.do?task=doPre">Post New Message</a></li>
+                    <li><a href="/app/general/helpdesk.do?task=doListingMember">Message Listing</a></li>
+                    
+                </ul>
+            </li>
+            <li><a>Sell M Credit</a>
+				<ul>
+					<li><a href="/app/wallet/sellwallet.do?task=doForm">Sell M Credit</a></li>
+					<li><a href="/app/wallet/sellwallet.do?task=doListSell">Sell M Credit List</a></li>
+					<li><a href="/app/wallet/buywallet.do?task=doListBuy">Buy M Credit List</a></li>
+					<li><a href="/app/wallet/buywallet.do?task=doApprovedBuy">Approved Sell M Credit</a></li>
+				</ul>
+			</li>
+            <li><a>Purchase A&P Coupon</a>
+                <ul>
+                    <li><a href="/app/pos/order/mbr/placeAMOrder.do?task=doPre">Purchase A&P Coupon</a></li>
+                    <li><a href="/app/pos/pin.do?task=doList">A&P Pin Listing</a></li>
+                    <li><a href="/app/pos/pin.do?task=doListPromo">Promotions</a></li>
+                </ul>
+            </li>
+            <li><a>Manage GRC2 </a>
+                <ul>
+                    <li><a href="/app/share2/manage.do?task=doHome">Manage GRC2</a></li>
+                    <li><a href="/app/share2/buy.do?task=doHome">Buy From Market 2</a></li>
+                </ul>
+            </li>
+            </ul>
+             <p class="footer">Copyright 2014 © MfcClub</p>
+        </div><!--end of sidebarmenu-->
+    </div><!--end of left content-->
+    
+    <div class="right_content">
+    	 <h2>
+	Buy From Market
+</h2>
+    	 
+     	 <p/>
+     	 <p></p>
+          
+
+
+<script type="text/javascript">
+	function calculateTotal (form) {
+
+		var units = form.units.value;
+		var price = form.price.value;
+		if (!isNaN(units) && !isNaN(price)) {		
+			var result = Math.round((units * price)*100)/100;
+			document.getElementById('total').innerHTML = result;
+		}
+	}
+</script>
+
+
+<div class="row-fluid">
+	<div class="span8">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+
+
+
+
+<!-- SS:0.32 -->
+
+<!-- SS:0.31 -->
+
+<!-- SS:0.3 -->
+
+<!-- SS:0.29 -->
+
+<!-- SS:0.28 -->
+
+<!-- SS:0.27 -->
+
+<!-- SS:0.26 -->
+
+<!-- SS:0.25 -->
+
+<!-- SS:0.24 -->
+
+<!-- SS:0.23 -->
+
+<!-- SS:0.22 -->
+
+<!-- SS:0.21 -->
+
+<!-- SS:0.2 -->
+
+<!-- SS:0.19 -->
+
+<script src="/lib/amcharts/amcharts.js" type="text/javascript"></script> 
+<script src="/lib/amcharts/serial.js" type="text/javascript"></script> 
+<script src="/lib/amcharts/amstock.js" type="text/javascript"></script>
+<div class="row-fluid">
+           <div class="span4">
+              <div class="panel counter" id="counter1">
+               <h3 class="title">
+               <span class="exc">
+               	Total Sell: 8004931630.00 <br>
+               	Balance Sell: 3714879210.00 <br>
+               </span><span class="secondary-color">0.23</span> </h3>
+               <div class="counter_body">
+                  <table class="styled">
+                    <tbody>
+                    <tr>
+                      <td>Previous</td>
+                      <td>0.23</td>
+                    </tr>
+                    <tr>
+                      <td>Open</td>
+                      <td>0.23</td>
+                    </tr>
+                    <tr>
+                      <td>Highest Price</td>
+                      <td>0.23</td>
+                    </tr>
+                    <tr>
+                      <td>Lowest Price</td>
+                      <td>0.23</td>
+                    </tr>
+                    <tr>
+                      <td>Current</td>
+                      <td>0.23</td>
+                    </tr>
+                    <tr>
+                      <td>Change</td>
+                      <td>
+                      <font color="green">
+								0.00%
+							</font>	
+                      </td>
+                    </tr>
+                  </tbody></table>
+               </div><!--end of counter body-->
+             </div><!--end of counter-->
+           </div><!--end of span8-->
+           <div class="span8 graph">
+              <div class="row-fluid">
+				<div id="chartdiv" style="width:100%; height:240px;"></div>
+				<script type="text/javascript"> 
+				var chartData = generateChartData();
+
+				function generateChartData() {
+					var chartData = [];
+					
+					$.ajax({
+						url : "/app/share/buy.do?task=doShareChartData"
+					}).
+					done(function( allText ) {
+						var allTextLines = allText.split(/\r\n|\n/);
+						
+						for(var i = 0 ; i < allTextLines.length; i++) {
+							var data = allTextLines[i].split(',');
+							var stockdate = $.datepicker.parseDate("yy-mm-dd",data[0]);
+							if (stockdate!=null) {
+								
+							chartData.push({
+								date: stockdate,
+								value: data[2]
+							});
+							}
+						}
+					});
+					
+ 					return chartData;
+				}
+
+
+				AmCharts.makeChart("chartdiv", {
+
+					type: "stock",
+
+					pathToImages: "/lib/amcharts/images/",
+
+					dataSets: [{
+						color: "#b0de09",
+						fieldMappings: [{
+							fromField: "value",
+							toField: "value"
+						}],
+						dataProvider: chartData,
+						categoryField: "date"
+					}],
+
+					panelsSettings:{
+						creditsPosition: "bottom-right"
+					},
+
+					panels: [{
+						showCategoryAxis: true,
+						title: "Value",
+						eraseAll: false,
+						labels: [{
+							x: 0,
+							y: 100,
+							text: "Click on the pencil icon on top-right to start drawing",
+							align: "center",
+							size: 16
+						}],
+
+						stockGraphs: [{
+							id: "g1",
+							valueField: "value",
+							bullet: "round",
+							bulletColor: "#700000",
+							bulletBorderColor: "#500000",
+							bulletBorderAlpha: 1,
+							bulletBorderThickness: 2,
+							bulletSize: 2,
+							lineThickness: 1,
+							lineColor: "#900000",
+							useDataSetColors: false
+						}],
+
+
+						stockLegend: {
+							valueTextRegular: " ",
+							markerType: "none"
+						},
+
+						drawingIconsEnabled: true
+					}],
+
+					chartScrollbarSettings: {
+						graph: "g1"
+					},
+					chartCursorSettings: {
+						valueBalloonsEnabled: true
+					},
+					periodSelector: {
+						position: "bottom",
+						periods: [{
+							period: "DD",
+							count: 10,
+							label: "10 days"
+						}, {
+							period: "MM",
+							count: 1,
+							label: "1 month"
+						}, {
+							period: "YYYY",
+							count: 1,
+							label: "1 year"
+						}, {
+							period: "YTD",
+							label: "YTD"
+						}, {
+							period: "MAX",
+							label: "MAX"
+						}]
+					}
+				});
+				</script>               			 
+            </div><!--end of row fluid--> 
+            <div class="row-fluid">
+             <table class="styled footable">
+             <thead>
+                <tr>
+                  <th>Floating GRC</th>
+                  <th>Total GRC</th>
+                  <th>Total GRC Value</th>
+                  <th data-hide="phone,tablet">Previous GRC2</th>
+                  <th data-hide="phone,tablet">Open  GRC2</th>
+                  <th data-hide="phone,tablet">Highest Price  GRC2</th>
+                  <th data-hide="phone,tablet">Lowest Price  GRC2</th>
+                  <th>Current  GRC2</th>
+                  <th data-hide="phone,tablet">Change  GRC2</th>
+
+                </tr>
+                </thead>
+                <tbody><tr>
+                  <td><a target="_a" href="/app/share/manage.do?task=doViewFloatingShares">330</a></td>
+                  <td>0</td>
+                  <td>75.90</td>
+                  <td>0.31 </td>
+                  <td>0.31</td>
+                  <td>0.42</td>
+                  <td>0.21</td>
+                  <td>0.42</td>
+                  <td>
+                  	<font color="green">
+								35.48%
+							</font>	
+                  </td>
+                  
+                </tr>
+                </tbody>
+			</table>
+            </div><!--end of row fluid-->
+           </div><!--end of span8-->
+          
+        </div>
+<div class="row-fluid">
+        
+        <table width="100%" class="styled">
+                <thead>
+                <tr>
+                  <th class="divider_bottom" colspan="3"><h5>Sell</h5></th>
+                </tr>
+                <tr>
+                  <th align="left">Ref No</th>
+                  <th align="left">Total Units</th>
+                  <th align="left">Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+	                <tr>
+	                  <td>17868736</td>
+	                  <td>28000.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868740</td>
+	                  <td>180.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868743</td>
+	                  <td>12000.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868744</td>
+	                  <td>35000.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868748</td>
+	                  <td>5100.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868749</td>
+	                  <td>5100.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868755</td>
+	                  <td>4500.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>17868756</td>
+	                  <td>4500.0</td>
+	                  <td>0.23</td>
+	                </tr>
+                
+                
+				</tbody>
+		</table>
+    </div>        
+    
+<div class="row-fluid">
+<!-- ABD = 14   -->    
+        <table width="100%" class="styled">
+                <thead>
+                <tr>
+                  <th class="divider_bottom" colspan="3"><h5>Sell</h5></th>
+                </tr>
+                <tr>
+                  <th align="left">Total Units</th>
+                  <th align="left">Balance Units</th>
+                  <th align="left">Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+	                <tr>
+	                  <td>9858315590.00</td>
+	                  <td>9858315590.00</td>
+	                  <td>0.24</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>8477587580.00</td>
+	                  <td>8477587580.00</td>
+	                  <td>0.25</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>8636315690.00</td>
+	                  <td>8636315690.00</td>
+	                  <td>0.26</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>7923177010.00</td>
+	                  <td>7923177010.00</td>
+	                  <td>0.27</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>10489318830.00</td>
+	                  <td>10489318830.00</td>
+	                  <td>0.28</td>
+	                </tr>
+                
+	                <tr>
+	                  <td>10361041630.00</td>
+	                  <td>10361041630.00</td>
+	                  <td>0.29</td>
+	                </tr>
+                
+                
+				</tbody>
+		</table>
+    </div>    <p>&nbsp;</p>
+    
+
+	</div>
+	<div class="span4">
+
+<form name="purchaseForm" action="/app/share/buy.do?task=doHome" method="post"  class="stdform trade">
+<div class="row-fluid highlight">
+		<div class="control-group">
+        	<label for="memid"> 
+        		Qty :
+        	</label>
+         	<div class="field">
+
+		<input type="text" name="units" value="6" onblur="calculateTotal(this.form)"/>
+		<small class="desc">GRC : 1.52</small>         		
+         	</div>
+       </div>
+		<div class="control-group">
+        	<label for="memid"> 
+        		Value / Perunit :
+        	</label>
+         	<div class="field">
+         		0.23
+				<input type="hidden" name="price" MAXLENGTH=5 value="0.23" onblur="calculateTotal(this.form)"/>
+         	</div>
+       </div>
+		<div class="control-group">
+        	<label for="memid"> 
+        		Total :
+        	</label>
+         	<div class="field">
+         		<span id="total">0</span>
+         	</div>
+       </div>
+
+		<div class="control-group action">
+	 <div class="field">
+
+         		<input type=hidden name="SubmitData" value="true">
+				<input type="submit" value="Next Step &raquo;&raquo;" />
+         	</div>
+
+        </div>
+</div>
+
+
+
+
+<script type="text/javascript">calculateTotal(document.purchaseForm);</script>
+
+</form>
+<form name="cancelForm" action="/app/share/buy.do?task=doCancel" method="get">
+<input type="hidden" value="" name="id"/>
+<input type="hidden" value="doCancel" name="task"/>
+</form>	
+	
+	</div>
+	
+</div>
+
+
+<script>
+	function confirmCancel(id) {
+		
+		if (confirm("Confirm cancel?")) {
+			document.cancelForm.id.value = id;
+			document.cancelForm.submit();
+		}
+		
+	}
+</script>
+<table class="styled">
+<thead>
+	<tr>
+		<th>Date</th>
+		<th>Value</th>
+		<th>Total GRC</th>
+		<th>Total</th>
+		<th>&nbsp;</th>
+	</tr>
+</thead>	
+<tbody>
+	
+</tbody>
+</table>
+
+
+
+          <br/>
+          <br/>
+    </div><!--end of right content-->
+
+</div><!--end of center content-->
+
+</div>
+</body>
+
+
+</html>
+
