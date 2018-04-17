@@ -1,5 +1,9 @@
-{
-	"result": true,
-	"tel": "13190143265",
-	"pwd": "111"
-}
+[
+  {
+    "delete_flag": 0, 
+    "pwd": "123456", 
+    "result": true, 
+    "tel": "13190143265", 
+    "type": 1
+  }
+]
